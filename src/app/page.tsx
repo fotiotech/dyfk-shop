@@ -97,7 +97,9 @@ export default function Page() {
                 />
               </div>
               <div className="mt-2 overflow-hidden line-clamp-1">
-                <p className="text-center text-xs line-clamp-1">Underwear</p>
+                <p className="text-center text-xs line-clamp-2">
+                  Women Underwear
+                </p>
               </div>
             </div>
             <div>
@@ -127,7 +129,9 @@ export default function Page() {
                 />
               </div>
               <div className="mt-2 overflow-hidden line-clamp-1">
-                <p className="text-center text-xs line-clamp-1">Accessories</p>
+                <p className="text-center text-xs line-clamp-2">
+                  Phone Accessories
+                </p>
               </div>
             </div>
           </div>
