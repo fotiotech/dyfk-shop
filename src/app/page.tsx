@@ -1,113 +1,265 @@
+"use client";
+
+import React from "react";
 import Image from "next/image";
 
-export default function Home() {
+export default function Page() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
+    <div>
+      <div>
+        <div className=" p-2 w-full border-b">
+          <div className="flex flex-wrap gap-7 py-1">
+            <div>
+              <div className="w-14 h-14 mx-2 content-center rounded-full bg-[#eee] overflow-hidden">
+                <Image
+                  title="men"
+                  alt=""
+                  width={56}
+                  height={56}
+                  draggable="false"
+                  src="/women.jpg"
+                  className="block max-w-full"
+                />
+              </div>
+              <div className="mt-1 w-full overflow-hidden">
+                <p className="text-center text-sm  line-clamp-1">Women</p>
+              </div>
+            </div>
+            <div>
+              <div className="w-14 h-14 mx-2 content-center rounded-full bg-[#eee] overflow-hidden">
+                <Image
+                  title="men"
+                  alt=""
+                  width={56}
+                  height={56}
+                  src="/ment-shirt.webp"
+                  className="block max-w-full"
+                />
+              </div>
+              <div className="mt-1 w-full overflow-hidden">
+                <p className="text-center text-sm  line-clamp-1">Men</p>
+              </div>
+            </div>
+            <div>
+              <div className="w-14 h-14 mx-2 content-center rounded-full bg-[#eee] overflow-hidden">
+                <Image
+                  title="men"
+                  alt=""
+                  width={56}
+                  height={56}
+                  src="/kids.jpg"
+                  className="block max-w-full"
+                />
+              </div>
+              <div className="mt-1 w-full overflow-hidden">
+                <p className="text-center text-sm line-clamp-1">Kids</p>
+              </div>
+            </div>
+            <div>
+              <div className="w-14 h-14 mx-2 content-center rounded-full bg-[#eee] overflow-hidden">
+                <Image
+                  title="men"
+                  alt=""
+                  width={56}
+                  height={56}
+                  src="/casquette.jpg"
+                  className="block max-w-full"
+                />
+              </div>
+              <div className="mt-1 w-16 overflow-hidden line-clamp-1">
+                <p className="text-center text-sm line-clamp-1">Hats</p>
+              </div>
+            </div>
+            <div>
+              <div className="w-14 h-14 mx-2 content-center rounded-full bg-[#eee] overflow-hidden">
+                <Image
+                  title="men"
+                  alt=""
+                  width={56}
+                  height={56}
+                  src="/girlbags.jpg"
+                  className="block max-w-full"
+                />
+              </div>
+              <div className="mt-1 w-16 overflow-hidden line-clamp-1">
+                <p className="text-center text-sm line-clamp-1 ">Bags</p>
+              </div>
+            </div>
+            <div>
+              <div className="w-14 h-14 mx-2 content-center rounded-full bg-[#eee] overflow-hidden">
+                <Image
+                  title="men"
+                  alt=""
+                  width={56}
+                  height={56}
+                  src="/womenunderwear.jpg"
+                  className="block max-w-full"
+                />
+              </div>
+              <div className="mt-1 w-16 overflow-hidden line-clamp-1">
+                <p className="text-center text-sm line-clamp-1">Underwear</p>
+              </div>
+            </div>
+            <div>
+              <div className="w-14 h-14 mx-2 content-center rounded-full bg-[#eee] overflow-hidden">
+                <Image
+                  title="men"
+                  alt=""
+                  width={56}
+                  height={56}
+                  src="/menshoes.jpg"
+                  className="block max-w-full"
+                />
+              </div>
+              <div className="mt-1 w-16 overflow-hidden line-clamp-1">
+                <p className="text-center text-sm line-clamp-1">Men Shoes</p>
+              </div>
+            </div>
+            <div>
+              <div className="w-14 h-14 mx-2 content-center rounded-full bg-[#eee] overflow-hidden">
+                <Image
+                  title="men"
+                  alt=""
+                  width={56}
+                  height={56}
+                  src="/accessories.jpg"
+                  className="block max-w-full "
+                />
+              </div>
+              <div className="mt-1 w-16 overflow-hidden line-clamp-1">
+                <p className="text-center text-sm line-clamp-1">Accessories</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex items-center gap-2 w-full p-2 border-b">
+          <div className="w-[50%] content-center h-56 rounded-xl bg-[#eee] overflow-hidden">
             <Image
-              src="./vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
+              title="men"
+              alt=""
+              width={200}
+              height={224}
+              src="/women.jpg"
+              className="block max-w-full"
             />
-          </a>
+          </div>
+          <div className="flex flex-col gap-2 w-[50%] h-56">
+            <div className="w-full h-[50%] content-center rounded-xl bg-[#eee] overflow-hidden">
+              <Image
+                title="men"
+                alt=""
+                width={200}
+                height={224}
+                src="/menshoes.jpg"
+                className="block max-w-full"
+              />
+            </div>
+            <div className="w-full h-[50%] content-stretch  rounded-xl bg-[#eee] overflow-hidden">
+              <Image
+                title="men"
+                alt=""
+                width={200}
+                height={224}
+                src="/sandal.jpg"
+                className="block max-w-full"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="w-full p-2 border-b">
+          <div>
+            <p className="font-bold">Selected For You</p>
+          </div>
+          <div className="w-full whitespace-nowrap overflow-x-auto ">
+            <div className="w-40 rounded-lg inline-block mx-2 p-2">
+              <div className="w-full h-36 bg-[#eee] content-center overflow-hidden rounded-lg">
+                <Image
+                  title="men"
+                  alt=""
+                  width={200}
+                  height={224}
+                  src="/women4.jpg"
+                  className="block max-w-full"
+                />
+              </div>
+              <div>
+                <p></p>
+              </div>
+            </div>
+            <div className="w-40 rounded-lg inline-block mx-2 p-2">
+              <div className="w-full h-36 bg-[#eee] content-center overflow-hidden rounded-lg">
+                <Image
+                  title="men"
+                  alt=""
+                  width={200}
+                  height={224}
+                  src="/ment-shirt.webp"
+                  className="block max-w-full aspect-auto"
+                />
+              </div>
+              <div>
+                <p></p>
+              </div>
+            </div>
+            <div className="w-40 rounded-lg inline-block mx-2 p-2">
+              <div className="w-full h-36 bg-[#eee] rounded-lg"></div>
+              <div>
+                <p></p>
+              </div>
+            </div>
+            <div className="w-40 rounded-lg inline-block mx-2 p-2">
+              <div className="w-full h-36 bg-[#eee] rounded-lg"></div>
+              <div>
+                <p></p>
+              </div>
+            </div>
+            <div className="w-40 rounded-lg inline-block mx-2 p-2">
+              <div className="w-full h-36 bg-[#eee] rounded-lg"></div>
+              <div>
+                <p></p>
+              </div>
+            </div>
+            <div className="w-40 rounded-lg inline-block mx-2 p-2">
+              <div className="w-full h-36 bg-[#eee] rounded-lg"></div>
+              <div>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-full p-2">
+          <div>
+            <p className="font-bold ">Best Deals</p>
+          </div>
+          <div className="grid grid-cols-2 gap-3 w-full">
+            <div className=" content-center h-36 rounded-lg bg-[#eee]">
+              <Image
+                title=""
+                alt=""
+                width={500}
+                height={300}
+                src={"/Fichier-1.png"}
+                className="block max-w-full"
+              />
+            </div>
+            <div className=" content-center h-36 rounded-lg bg-[#eee] overflow-hidden">
+              <Image
+                title=""
+                alt=""
+                width={500}
+                height={300}
+                src={"/image2.webp"}
+                className="block max-w-full "
+              />
+            </div>
+            <div className=" p-4 h-36 rounded-lg bg-[#eee]"></div>
+            <div className=" p-4 h-36 rounded-lg bg-[#eee]"></div>
+          </div>
+        </div>
+        <div className="p-2">
+          <h2 className="font-semibold text-lg">Featured Selection</h2>
         </div>
       </div>
-
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="./next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </div>
   );
 }
