@@ -22,7 +22,7 @@ export default function Page() {
                 />
               </div>
               <div className="mt-1 w-full overflow-hidden">
-                <p className="text-center text-sm  line-clamp-1">Women</p>
+                <p className="text-center text-xs  line-clamp-1">Women</p>
               </div>
             </div>
             <div>
@@ -37,7 +37,7 @@ export default function Page() {
                 />
               </div>
               <div className="mt-1 w-full overflow-hidden">
-                <p className="text-center text-sm  line-clamp-1">Men</p>
+                <p className="text-center text-xs  line-clamp-1">Men</p>
               </div>
             </div>
             <div>
@@ -52,7 +52,7 @@ export default function Page() {
                 />
               </div>
               <div className="mt-1 w-full overflow-hidden">
-                <p className="text-center text-sm line-clamp-1">Kids</p>
+                <p className="text-center text-xs line-clamp-1">Kids</p>
               </div>
             </div>
             <div>
@@ -66,8 +66,8 @@ export default function Page() {
                   className="block max-w-full"
                 />
               </div>
-              <div className="mt-1 w-16 overflow-hidden line-clamp-1">
-                <p className="text-center text-sm line-clamp-1">Hats</p>
+              <div className="mt-1 w-14 overflow-hidden line-clamp-1">
+                <p className="text-center text-xs line-clamp-1">Hats</p>
               </div>
             </div>
             <div>
@@ -81,8 +81,8 @@ export default function Page() {
                   className="block max-w-full"
                 />
               </div>
-              <div className="mt-1 w-16 overflow-hidden line-clamp-1">
-                <p className="text-center text-sm line-clamp-1 ">Bags</p>
+              <div className="mt-1 w-14 overflow-hidden line-clamp-1">
+                <p className="text-center text-xs line-clamp-1 ">Bags</p>
               </div>
             </div>
             <div>
@@ -96,8 +96,8 @@ export default function Page() {
                   className="block max-w-full"
                 />
               </div>
-              <div className="mt-1 w-16 overflow-hidden line-clamp-1">
-                <p className="text-center text-sm line-clamp-1">Underwear</p>
+              <div className="mt-1 overflow-hidden line-clamp-1">
+                <p className="text-center text-xs line-clamp-1">Underwear</p>
               </div>
             </div>
             <div>
@@ -111,8 +111,8 @@ export default function Page() {
                   className="block max-w-full"
                 />
               </div>
-              <div className="mt-1 w-16 overflow-hidden line-clamp-1">
-                <p className="text-center text-sm line-clamp-1">Men Shoes</p>
+              <div className="mt-1 w-14 overflow-hidden line-clamp-1">
+                <p className="text-center text-xs line-clamp-1">Men Shoes</p>
               </div>
             </div>
             <div>
@@ -126,8 +126,8 @@ export default function Page() {
                   className="block max-w-full "
                 />
               </div>
-              <div className="mt-1 w-16 overflow-hidden line-clamp-1">
-                <p className="text-center text-sm line-clamp-1">Accessories</p>
+              <div className="mt-1 overflow-hidden line-clamp-1">
+                <p className="text-center text-xs line-clamp-1">Accessories</p>
               </div>
             </div>
           </div>
