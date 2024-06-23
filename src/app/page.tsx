@@ -8,9 +8,9 @@ export default function Page() {
     <div>
       <div>
         <div className=" p-2 w-full border-b">
-          <div className="flex flex-wrap gap-7 py-1">
+          <div className="grid grid-cols-4 gap-6 py-1">
             <div>
-              <div className="w-14 h-14 mx-2 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className=" mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
@@ -21,12 +21,12 @@ export default function Page() {
                   className="block max-w-full"
                 />
               </div>
-              <div className="mt-1 w-full overflow-hidden">
+              <div className="mt-2 overflow-hidden">
                 <p className="text-center text-xs  line-clamp-1">Women</p>
               </div>
             </div>
             <div>
-              <div className="w-14 h-14 mx-2 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className=" mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
@@ -36,12 +36,12 @@ export default function Page() {
                   className="block max-w-full"
                 />
               </div>
-              <div className="mt-1 w-full overflow-hidden">
+              <div className="mt-2 overflow-hidden">
                 <p className="text-center text-xs  line-clamp-1">Men</p>
               </div>
             </div>
             <div>
-              <div className="w-14 h-14 mx-2 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className=" mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
@@ -51,12 +51,12 @@ export default function Page() {
                   className="block max-w-full"
                 />
               </div>
-              <div className="mt-1 w-full overflow-hidden">
+              <div className="mt-2 overflow-hidden">
                 <p className="text-center text-xs line-clamp-1">Kids</p>
               </div>
             </div>
             <div>
-              <div className="w-14 h-14 mx-2 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className=" mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
@@ -66,12 +66,12 @@ export default function Page() {
                   className="block max-w-full"
                 />
               </div>
-              <div className="mt-1 w-14 overflow-hidden line-clamp-1">
+              <div className="mt-2 overflow-hidden line-clamp-1">
                 <p className="text-center text-xs line-clamp-1">Hats</p>
               </div>
             </div>
             <div>
-              <div className="w-14 h-14 mx-2 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className=" mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
@@ -81,12 +81,12 @@ export default function Page() {
                   className="block max-w-full"
                 />
               </div>
-              <div className="mt-1 w-14 overflow-hidden line-clamp-1">
+              <div className="mt-2 overflow-hidden line-clamp-1">
                 <p className="text-center text-xs line-clamp-1 ">Bags</p>
               </div>
             </div>
             <div>
-              <div className="w-14 h-14 mx-2 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className=" mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
@@ -96,12 +96,12 @@ export default function Page() {
                   className="block max-w-full"
                 />
               </div>
-              <div className="mt-1 overflow-hidden line-clamp-1">
+              <div className="mt-2 overflow-hidden line-clamp-1">
                 <p className="text-center text-xs line-clamp-1">Underwear</p>
               </div>
             </div>
             <div>
-              <div className="w-14 h-14 mx-2 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className=" mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
@@ -111,12 +111,12 @@ export default function Page() {
                   className="block max-w-full"
                 />
               </div>
-              <div className="mt-1 w-14 overflow-hidden line-clamp-1">
+              <div className="mt-2 overflow-hidden line-clamp-1">
                 <p className="text-center text-xs line-clamp-1">Men Shoes</p>
               </div>
             </div>
             <div>
-              <div className="w-14 h-14 mx-2 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className=" mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
@@ -126,7 +126,7 @@ export default function Page() {
                   className="block max-w-full "
                 />
               </div>
-              <div className="mt-1 overflow-hidden line-clamp-1">
+              <div className="mt-2 overflow-hidden line-clamp-1">
                 <p className="text-center text-xs line-clamp-1">Accessories</p>
               </div>
             </div>
