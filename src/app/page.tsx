@@ -10,7 +10,7 @@ export default function Page() {
         <div className=" p-2 w-full border-b">
           <div className="grid grid-cols-4 gap-6 py-1">
             <div>
-              <div className=" mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className=" h-[76px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
@@ -18,7 +18,7 @@ export default function Page() {
                   height={56}
                   draggable="false"
                   src="/women.jpg"
-                  className="block max-w-full"
+                  className=" w-full"
                 />
               </div>
               <div className="mt-2 overflow-hidden">
@@ -26,14 +26,14 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <div className=" mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className="h-[76px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
                   width={56}
                   height={56}
                   src="/ment-shirt.webp"
-                  className="block max-w-full"
+                  className="w-full"
                 />
               </div>
               <div className="mt-2 overflow-hidden">
@@ -41,14 +41,14 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <div className=" mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className="h-[76px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
                   width={56}
                   height={56}
                   src="/kids.jpg"
-                  className="block max-w-full"
+                  className="w-full"
                 />
               </div>
               <div className="mt-2 overflow-hidden">
@@ -56,14 +56,14 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <div className=" mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className="h-[76px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
                   width={56}
                   height={56}
                   src="/casquette.jpg"
-                  className="block max-w-full"
+                  className="w-full"
                 />
               </div>
               <div className="mt-2 overflow-hidden line-clamp-1">
@@ -71,14 +71,14 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <div className=" mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className="h-[76px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
                   width={56}
                   height={56}
                   src="/girlbags.jpg"
-                  className="block max-w-full"
+                  className="w-full"
                 />
               </div>
               <div className="mt-2 overflow-hidden line-clamp-1">
@@ -86,14 +86,14 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <div className=" mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className="h-[76px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
                   width={56}
                   height={56}
                   src="/womenunderwear.jpg"
-                  className="block max-w-full"
+                  className="w-full"
                 />
               </div>
               <div className="mt-2 overflow-hidden line-clamp-1">
@@ -103,14 +103,14 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <div className=" mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className="h-[76px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
                   width={56}
                   height={56}
                   src="/menshoes.jpg"
-                  className="block max-w-full"
+                  className="w-full"
                 />
               </div>
               <div className="mt-2 overflow-hidden line-clamp-1">
@@ -118,14 +118,14 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <div className=" mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className="h-[76px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
                   width={56}
                   height={56}
                   src="/accessories.jpg"
-                  className="block max-w-full "
+                  className="w-full "
                 />
               </div>
               <div className="mt-2 overflow-hidden line-clamp-1">
@@ -144,7 +144,7 @@ export default function Page() {
               width={200}
               height={224}
               src="/women.jpg"
-              className="block max-w-full"
+              className="w-full"
             />
           </div>
           <div className="flex flex-col gap-2 w-[50%] h-56">
@@ -155,7 +155,7 @@ export default function Page() {
                 width={200}
                 height={224}
                 src="/menshoes.jpg"
-                className="block max-w-full"
+                className="w-full h-full object-cover"
               />
             </div>
             <div className="w-full h-[50%] content-stretch  rounded-xl bg-[#eee] overflow-hidden">
@@ -165,7 +165,7 @@ export default function Page() {
                 width={200}
                 height={224}
                 src="/sandal.jpg"
-                className="block max-w-full"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>

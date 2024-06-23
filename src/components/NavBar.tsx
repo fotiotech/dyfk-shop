@@ -12,8 +12,8 @@ const NavBar = () => {
               <h1>DyFkShop</h1>
             </Link>
           </div>
-          <div className="invisible absolute">
-            <ul className=" whitespace-nowrap font-bold ">
+          <div className="relative invisible ">
+            <ul className="absolute whitespace-nowrap font-bold ">
               <li className=" relative inline-block mx-4 overflow-hidden hover:after:absolute hover:after:bottom-0 hover:after:left-0 hover:after:bg-blue-800 after:hover:w-full after:transition-all  hover:after:h-1 after:w-1 ">
                 <span className=" px-1 ">Home</span>
               </li>
