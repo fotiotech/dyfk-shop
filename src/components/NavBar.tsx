@@ -12,7 +12,7 @@ const NavBar = () => {
               <h1>DyFkShop</h1>
             </Link>
           </div>
-          <div className="relative invisible ">
+          {/* <div className="relative invisible ">
             <ul className="absolute whitespace-nowrap font-bold ">
               <li className=" relative inline-block mx-4 overflow-hidden hover:after:absolute hover:after:bottom-0 hover:after:left-0 hover:after:bg-blue-800 after:hover:w-full after:transition-all  hover:after:h-1 after:w-1 ">
                 <span className=" px-1 ">Home</span>
@@ -30,7 +30,7 @@ const NavBar = () => {
                 <span className=" px-1 ">Contact</span>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className=" flex justify-center items-center gap-2">
             <Link href="/customers">
               <p className="  font-semibold ">Login</p>
