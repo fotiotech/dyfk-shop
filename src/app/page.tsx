@@ -8,9 +8,9 @@ export default function Page() {
     <div>
       <div>
         <div className=" p-2 w-full border-b">
-          <div className="grid grid-cols-4 gap-6 py-1">
+          <div className="grid grid-cols-4 gap-5 py-1">
             <div>
-              <div className=" h-[76px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className="h-[75px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
@@ -22,11 +22,11 @@ export default function Page() {
                 />
               </div>
               <div className="mt-2 overflow-hidden">
-                <p className="text-center text-xs  line-clamp-1">Women</p>
+                <p className="text-center text-xs  line-clamp-2">Women</p>
               </div>
             </div>
             <div>
-              <div className="h-[76px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className="h-[75px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
@@ -41,7 +41,7 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <div className="h-[76px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className="h-[75px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
@@ -56,7 +56,7 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <div className="h-[76px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className="h-[75px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
@@ -71,7 +71,7 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <div className="h-[76px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className="h-[75px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
@@ -86,7 +86,7 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <div className="h-[76px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className="h-[75px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
@@ -103,7 +103,7 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <div className="h-[76px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className="h-[75px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
@@ -118,7 +118,7 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <div className="h-[76px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
+              <div className="h-[75px] mx-1 content-center rounded-full bg-[#eee] overflow-hidden">
                 <Image
                   title="men"
                   alt=""
