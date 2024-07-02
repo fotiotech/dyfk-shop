@@ -2,14 +2,11 @@
 
 import React from "react";
 
-const Page = ({
-  params,
-}: {
-  params: { overview: string; shopping: string };
-}) => {
+const Page = () => {
   return (
     <div>
-      Page<div>{params.shopping}</div>
+      <p>Page</p>
+      <div></div>
     </div>
   );
 };

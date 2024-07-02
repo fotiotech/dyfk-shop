@@ -1,10 +1,11 @@
 "use client";
-import React from "react";
+import React, { ReactNode, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const AdminSideBar = () => {
   const pathname = usePathname();
+  const [shopMore, setShopMore] = useState<ReactNode | null>(null);
   return (
     <div className="absolute w-1/2 max-h-screen overflow-hidden border bg-white">
       <div>
@@ -34,15 +35,38 @@ const AdminSideBar = () => {
               Overview
             </Link>
           </li>
-          <li className="py-1 hover:bg-slate-50">
-            <Link
-              className={`link ${
-                pathname === "/admin/shopping" ? "active" : ""
-              }`}
-              href={"/shopping"}
-            >
-              Shop
-            </Link>
+          <li
+            onClick={() =>
+              setShopMore(
+                <ul>
+                  <li>
+                    <Link
+                      className={`link ${
+                        pathname === "/admin/new" ? "active" : ""
+                      } `}
+                      href={"/admin/shopping/new"}
+                    >
+                      New
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link
+                      className={`link ${
+                        pathname === "/admin/shopping/delete" ? "active" : ""
+                      }`}
+                      href={"/admin/shopping/delete"}
+                    >
+                      Products
+                    </Link>
+                  </li>
+                </ul>
+              )
+            }
+            className="py-1 hover:bg-slate-50"
+          >
+            <p>Shop</p>
+            <div>{shopMore}</div>
           </li>
           <li className="py-1 hover:bg-slate-50">Orders</li>
         </ul>
