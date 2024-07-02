@@ -24,8 +24,7 @@ const EditPage = () => {
       caracteristique === "" ||
       description === "" ||
       price === "" ||
-      devise === "" ||
-      files === null
+      devise === ""
     ) {
       alert("fill out all required cases");
     }
