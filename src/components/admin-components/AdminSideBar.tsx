@@ -53,9 +53,9 @@ const AdminSideBar = () => {
                   <li>
                     <Link
                       className={`link ${
-                        pathname === "/admin/shopping/delete" ? "active" : ""
+                        pathname === "/admin/shopping/products" ? "active" : ""
                       }`}
-                      href={"/admin/shopping/delete"}
+                      href={"/admin/shopping/products"}
                     >
                       Products
                     </Link>

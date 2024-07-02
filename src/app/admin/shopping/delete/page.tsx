@@ -27,7 +27,7 @@ const Page = () => {
       </button>
 
       <button type="button" className="p-2 border m-2">
-        No, i don't want to delete.
+        No, i do not want to delete.
       </button>
     </div>
   );

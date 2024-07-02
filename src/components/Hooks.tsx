@@ -1,10 +1,10 @@
-import React, { useEffect, useRef } from "react";
+import React, { ReactNode, useEffect, useRef } from "react";
 
 const useClickOusite = (handler: () => void) => {
-  let domNode = useRef();
+  let domNode = useRef(null);
 
   useEffect(() => {
-    function Handler(e) {
+    function Handler(e: { target: any; }) {
       if (!domNode.current.contains(e.target)) {
         handler();
       }
