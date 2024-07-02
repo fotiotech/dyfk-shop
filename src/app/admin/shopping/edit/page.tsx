@@ -1,7 +1,7 @@
 "use client";
 
-// import axios from "axios";
-import React, { useState } from "react";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
 
 const EditPage = () => {
   const IdEdit = new URLSearchParams(location.search).get("id");
@@ -43,29 +43,29 @@ const EditPage = () => {
     data.append("reduction", reduction);
     data.append("devise", devise);
 
-    // try {
-    //   await axios.put("http://localhost:3000/products/edit", data, {
-    //     headers: { "Content-type": "multipart/form-data" },
-    //   });
-    //   alert("Edited successfully.");
-    // } catch (error) {
-    //   console.log(error);
-    // }
+    try {
+      await axios.put("http://localhost:3000/api/shopping/edit", data, {
+        headers: { "Content-type": "multipart/form-data" },
+      });
+      alert("Edited successfully.");
+    } catch (error) {
+      console.log(error);
+    }
   }
 
-  //   useEffect(() => {
-  //     try {
-  //       axios
-  //         .get(`http://localhost:3000/products/edit/` + IdEdit)
-  //         .then((response) => {
-  //           setProducts(response.data);
-  //         });
-  //     } catch {
-  //       (error: any) => {
-  //         console.log(error);
-  //       };
-  //     }
-  //   }, []);
+  useEffect(() => {
+    try {
+      axios
+        .get(`http://localhost:3000/api/shopping/edit/` + IdEdit)
+        .then((response) => {
+          setProducts(response.data);
+        });
+    } catch {
+      (error: any) => {
+        console.log(error);
+      };
+    }
+  }, []);
 
   return (
     <div className=" bg-[#eee] text-pri border mb-10 ">

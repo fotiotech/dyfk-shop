@@ -71,6 +71,14 @@ const AdminSideBar = () => {
           <li className="py-1 hover:bg-slate-50">Orders</li>
         </ul>
       </div>
+      <div>
+        <p className="p-2 font-bold">Customers</p>
+        <ul>
+          <li className="py-1 hover:bg-slate-50">Profile</li>
+          <li className="py-1 hover:bg-slate-50">Account</li>
+          <li className="py-1 hover:bg-slate-50">Notifications</li>
+        </ul>
+      </div>
       <div></div>
     </div>
   );

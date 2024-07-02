@@ -1,6 +1,6 @@
 "use client";
 
-// import axios from "axios";
+import axios from "axios";
 import React, { useState } from "react";
 
 const AddNew = () => {
@@ -41,15 +41,15 @@ const AddNew = () => {
     data.append("reduction", reduction);
     data.append("devise", devise);
 
-    //     try {
-    //       await axios.post("http://localhost:3000/products/new", data, {
-    //         headers: { "Content-type": "multipart/form-data" },
-    //       });
-    //       alert("Registration successful.");
-    //     } catch (error) {
-    //       alert("Failed to add products!");
-    //       console.log(error);
-    //     }
+        try {
+          await axios.post("http://localhost:3000/api/shopping/new", data, {
+            headers: { "Content-type": "multipart/form-data" },
+          });
+          alert("Registration successful.");
+        } catch (error) {
+          alert("Failed to add products!");
+          console.log(error);
+        }
   }
   return (
     <div className="w-full mb-10">

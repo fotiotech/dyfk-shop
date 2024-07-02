@@ -1,20 +1,20 @@
 "use client";
 
-// import axios from "axios";
+import axios from "axios";
 import React from "react";
 
-const DeletePage = () => {
+const Page = () => {
   const IdEdit = new URLSearchParams(location.search).get("id");
 
   async function HandleData(ev: { preventDefault: () => void }) {
     ev.preventDefault();
 
-    // try {
-    //   await axios.delete("http://localhost:3000/products/delete/" + IdEdit);
-    //   alert("Deleted successfully.");
-    // } catch (error) {
-    //   console.log(error);
-    // }
+    try {
+      await axios.delete("http://localhost:3000/api/shopping/delete/" + IdEdit);
+      alert("Deleted successfully.");
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   return (
@@ -33,4 +33,4 @@ const DeletePage = () => {
   );
 };
 
-export default DeletePage;
+export default Page;
